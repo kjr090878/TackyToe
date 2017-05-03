@@ -14,6 +14,7 @@
 		3D6D44111EBA5C2C0052F5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6D440F1EBA5C2C0052F5FE /* LaunchScreen.storyboard */; };
 		3D6D441C1EBA5C2D0052F5FE /* TackyToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D441B1EBA5C2D0052F5FE /* TackyToeTests.swift */; };
 		3D6D44271EBA5C2D0052F5FE /* TackyToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D44261EBA5C2D0052F5FE /* TackyToeUITests.swift */; };
+		3D6D44351EBA5D900052F5FE /* PrettyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6D44341EBA5D900052F5FE /* PrettyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3D6D44221EBA5C2D0052F5FE /* TackyToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TackyToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6D44261EBA5C2D0052F5FE /* TackyToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TackyToeUITests.swift; sourceTree = "<group>"; };
 		3D6D44281EBA5C2D0052F5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6D44341EBA5D900052F5FE /* PrettyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		3D6D44051EBA5C2C0052F5FE /* TackyToe */ = {
 			isa = PBXGroup;
 			children = (
+				3D6D44341EBA5D900052F5FE /* PrettyButton.swift */,
 				3D6D44061EBA5C2C0052F5FE /* AppDelegate.swift */,
 				3D6D44081EBA5C2C0052F5FE /* ViewController.swift */,
 				3D6D440A1EBA5C2C0052F5FE /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D6D44091EBA5C2C0052F5FE /* ViewController.swift in Sources */,
+				3D6D44351EBA5D900052F5FE /* PrettyButton.swift in Sources */,
 				3D6D44071EBA5C2C0052F5FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
